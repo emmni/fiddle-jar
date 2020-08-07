@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #87ceeb;
+    color: #f0f3f3;
+}
+
+h1 {
+    font-size: 4vw;
+    text-align: center;
+}
+
+.jar {
+    padding-bottom: 3%;
+}
+
+.jar img{
+    width: 12%;
+    height: auto;
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+
+.bee {
+    position: relative;
+}
+
+.bee img {
+    display: block;
+    position: absolute;
+
+    width: 5%;
+    height: auto;
+}
+
+#beeRight {
+    margin-top: 5%;
+    top: 0%;
+    left: 10%;
+}
+
+#beeLeft {
+    margin-top: 1%;
+    top: 0%;
+    left: 20%;
+}
+
+.medal {
+    position: relative;
+}
+
+.medal img {
+    display: block;
+    position: absolute;
+    margin-bottom: 5%;
+    bottom: 0%;
+    right: 20%;
+
+    width: 8%;
+    height: auto;
+}
+
+#mainCount {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2vw;
+    font-weight: bold;
+
+    padding: 0% 2%;
+    border: 2px solid white;
+    background-color: white;
+    color: #2a2c2c;
+    margin-bottom: 3%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row;
+    margin-bottom: 0.5%;
+}
+.container img {
+    width: 6%;
+    height: auto;
+}
+
+#banknoteButton {
+    align-self: center;
+}
+
+#coinButton {
+    align-self: center;
+    width: 5%;
+}
+
+.name {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    font-size: 2vw;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 0.2%;
+}
+
+#banknoteCount, #coinCount {
+    padding: 0% 2%;
+    border: 2px solid white;
+    background-color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    color: #2a2c2c;
+}
